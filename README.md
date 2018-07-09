@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-A simple responsive portfolio using bootstrap
+# Basic-Portfolio
+My First Portfolio Site

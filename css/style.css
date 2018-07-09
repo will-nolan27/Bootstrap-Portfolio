@@ -1,0 +1,131 @@
+html,body{
+    flex: 1
+}
+body{
+    background-image: url("../images/textures-notebook-paper-wallpapers-backgrounds-for-powerpoint.jpg");
+    font-family: 'Prompt', sans-serif;
+}
+.navbar{
+    background-color: rgb(100,173,189); 
+    }
+.navbar-light
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 250%;
+    color:rgb(244,241,228);
+}
+.navbar-light
+.navbar-brand:focus,
+.navbar-light
+.navbar-brand:hover{
+    color:rgb(191,188,168);
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    font-size: 150%;
+    color:rgb(244,241,228);
+} 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:rgb(191,188,168);
+}
+img{
+    border-radius: 5%
+}
+.card.col-md-7.p-2.mb-sm-4{
+    border-radius: 5%;
+}
+.card-header:first-child {
+    border-radius:5%;
+}
+div.card-header{
+    border-radius: 20%;
+}
+.card-title.position-absolute.text-center.w-100.p-2{
+    color:rgb(244,241,228);  
+}
+div.card.mb-4.position-relative{
+    border-radius: 5%;
+    border-style: none
+}
+.card.col-md-4.ml-auto.p-2.h-25.mb-sm-4{
+    border-radius:5%; 
+}
+.card-img-top{
+    border-radius: 10%;
+    border-style: none
+}
+.container{
+    margin: 5%;
+}
+.card{ 
+    max-width: 100%;
+    background-color:rgb(244,241,228);
+    border-color: rgb(100,173,189);
+    color:  rgb(100,173,189)
+  
+}
+
+
+.card-header{
+    background-color:rgb(244,241,228);
+    border-color: rgb(100,173,189)
+}
+.card-title{
+    
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    left: -15px
+}
+input[type="text"], textarea {
+
+    background-color:rgb(244,241,228);
+    border-radius:40%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(100,173,189);
+    color: rgb(100,173,189)
+  }
+  input[type="email"], textarea {
+
+    background-color:rgb(244,241,228);
+    border-radius:40%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(100,173,189);
+    color: rgb(100,173,189)
+  }
+  input[type="submit"], textarea {
+
+    background-color:rgb(244,241,228);
+    border-radius:10%;
+    border-color: rgb(100,173,189);
+    color: rgb(100,173,189)
+  }
+footer{
+    background-color:rgb(100,173,189);
+    color: rgb(244,241,228);
+    z-index: -2;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
